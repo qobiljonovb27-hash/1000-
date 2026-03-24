@@ -1,0 +1,205 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:black;
+color:white;
+overflow-x:hidden;
+}
+
+/* header */
+
+header{
+position:fixed;
+width:100%;
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:rgba(0,0,0,0.7);
+backdrop-filter:blur(10px);
+z-index:10;
+}
+
+.logo{
+font-size:24px;
+color:#00f7ff;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:white;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#00f7ff;
+}
+
+
+/* hero */
+
+.hero{
+
+height:100vh;
+
+background:url("robot.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+}
+
+.hero-text h1{
+
+font-size:70px;
+
+color:#00f7ff;
+
+text-shadow:0 0 20px #00f7ff;
+
+}
+
+.hero-text p{
+
+margin:20px 0;
+
+font-size:22px;
+
+}
+
+button{
+
+padding:15px 35px;
+
+background:#00f7ff;
+
+border:none;
+
+font-size:18px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+button:hover{
+
+transform:scale(1.15);
+
+box-shadow:0 0 20px #00f7ff;
+
+}
+
+
+/* cards */
+
+.features{
+
+padding:120px 50px;
+
+text-align:center;
+
+}
+
+.cards{
+
+display:flex;
+
+justify-content:center;
+
+gap:40px;
+
+margin-top:50px;
+
+}
+
+.card{
+
+background:#111;
+
+padding:40px;
+
+width:250px;
+
+border-radius:20px;
+
+transition:0.4s;
+
+}
+
+.card:hover{
+
+transform:rotateY(10deg) translateY(-10px);
+
+box-shadow:0 0 30px #00f7ff;
+
+}
+
+
+/* gallery */
+
+.gallery{
+
+padding:100px 40px;
+
+text-align:center;
+
+}
+
+.images{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+.images img{
+
+width:250px;
+
+border-radius:20px;
+
+transition:0.4s;
+
+}
+
+.images img:hover{
+
+transform:scale(1.1);
+
+box-shadow:0 0 25px #00f7ff;
+
+}
+
+
+/* footer */
+
+footer{
+
+text-align:center;
+
+padding:30px;
+
+background:black;
+
+}
